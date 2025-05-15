@@ -23,12 +23,12 @@ function startGame() {
 }
 function renderGame() {
   if (sum < 21) {
-    masseage = "Do You Want To Draw A New Card ?";
+    masseage = "Do You Want To Draw A New Card ?🙂";
   } else if (sum === 21) {
-    masseage = "Whoow You've Got BlackJack";
+    masseage = "Whoow You've Got BlackJack 😍";
     hasBlackJack = true;
   } else {
-    masseage = " You'r Out Of The Game ";
+    masseage = " You'r Out Of The Game 😭";
     isAlive = false;
   }
   masseageEL.textContent = masseage;
